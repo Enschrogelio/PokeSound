@@ -1,0 +1,49 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/textView"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:collapseColumns="*"
+    android:stretchColumns="*"
+    >
+
+    <TableRow>
+
+
+        <TextView
+            android:text="Touch sound pikachu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+
+
+    </TableRow>
+
+    <TableRow
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:baselineAligned="false"
+        android:orientation="vertical"
+        >
+
+        <ImageButton
+            android:id="@+id/pika"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:minHeight="500dp"
+            android:layout_gravity="bottom"
+            android:src="@drawable/selector"
+            />
+
+
+    </TableRow>
+
+
+</TableLayout>
